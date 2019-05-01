@@ -1,0 +1,78 @@
+2019-04-11 05:54:39 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-11 05:54:39 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-11 05:54:39 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => 766cc429fd8a19ed043d04c386827d92
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-11 05:54:39 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-11 05:54:39 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 26)
+2019-04-11 05:55:35 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-11 05:55:35 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-11 05:55:35 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => 766cc429fd8a19ed043d04c386827d92
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-11 05:55:35 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-11 05:55:35 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 26)
+2019-04-11 05:56:34 [DEBUG] brand_route.php: START /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 7)
+2019-04-11 05:56:46 [DEBUG] brand_route.php: START /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 7)
+2019-04-11 05:56:46 [DEBUG] brand_service.php: START addNewEntity [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 13)
+2019-04-11 05:56:46 [DEBUG] brand_service.php:  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 14)
+2019-04-11 05:56:47 [DEBUG] brand_service.php: END addNewEntity [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 33)
+2019-04-11 05:56:47 [DEBUG] brand_route.php: END /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 32)

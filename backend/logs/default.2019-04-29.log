@@ -1,0 +1,137 @@
+2019-04-29 15:14:41 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 49)
+2019-04-29 15:14:41 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-29 15:14:41 [DEBUG] tools_service.php: 9b6b6510f85c502e2d56791564b40b27 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-29 15:14:41 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-29 15:14:41 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 63)
+2019-04-29 15:25:22 [DEBUG] activity_route.php: START /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 31)
+2019-04-29 15:25:22 [DEBUG] user_service.php: START logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 292)
+2019-04-29 15:25:22 [DEBUG] user_service.php: END logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 308)
+2019-04-29 15:25:22 [DEBUG] activity_route.php: END /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 44)
+2019-04-29 15:25:24 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-29 15:25:24 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-29 15:25:24 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => 5f1fe06de9a010b35e4e4d68c8caecf6
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-29 15:25:24 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-29 15:25:24 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 24)
+2019-04-29 15:25:25 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 49)
+2019-04-29 15:25:25 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-29 15:25:25 [DEBUG] tools_service.php: 5f1fe06de9a010b35e4e4d68c8caecf6 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-29 15:25:25 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-29 15:25:25 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 63)
+2019-04-29 15:25:57 [DEBUG] user_route.php: START /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 77)
+2019-04-29 15:25:57 [DEBUG] user_service.php: START getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 87)
+2019-04-29 15:25:57 [DEBUG] user_service.php: END getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 136)
+2019-04-29 15:25:57 [DEBUG] user_route.php: END /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 92)
+2019-04-29 15:35:40 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 49)
+2019-04-29 15:35:40 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-29 15:35:40 [DEBUG] tools_service.php: 5f1fe06de9a010b35e4e4d68c8caecf6 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-29 15:35:40 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-29 15:35:40 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 63)
+2019-04-29 15:35:50 [DEBUG] user_route.php: START /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 77)
+2019-04-29 15:35:50 [DEBUG] user_service.php: START getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 87)
+2019-04-29 15:35:50 [DEBUG] user_service.php: END getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 136)
+2019-04-29 15:35:50 [DEBUG] user_route.php: END /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 92)
+2019-04-29 15:36:06 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 49)
+2019-04-29 15:36:06 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-29 15:36:06 [DEBUG] tools_service.php: 5f1fe06de9a010b35e4e4d68c8caecf6 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-29 15:36:06 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-29 15:36:06 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 63)
+2019-04-29 15:36:11 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 49)
+2019-04-29 15:36:11 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-29 15:36:11 [DEBUG] tools_service.php: 5f1fe06de9a010b35e4e4d68c8caecf6 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-29 15:36:11 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-29 15:36:11 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 63)
+2019-04-29 15:36:16 [DEBUG] user_route.php: START /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 77)
+2019-04-29 15:36:16 [DEBUG] user_service.php: START getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 87)
+2019-04-29 15:36:16 [DEBUG] user_service.php: END getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 136)
+2019-04-29 15:36:16 [DEBUG] user_route.php: END /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 92)
+2019-04-29 15:36:42 [DEBUG] activity_route.php: START /manager ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 71)
+2019-04-29 15:36:42 [DEBUG] tools_service.php: START getAllManagers -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 41)
+2019-04-29 15:36:42 [DEBUG] tools_service.php: ----------------------------------------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 56)
+2019-04-29 15:36:42 [DEBUG] activity_route.php: END /manager ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 86)
+2019-04-29 15:36:42 [DEBUG] country_route.php: START /country ---------- (at D:\Projects\vanam\backend\routes\country_route.php line 65)
+2019-04-29 15:36:42 [DEBUG] country_service.php: START getAllEntities [COUNTRY] -------  (at D:\Projects\vanam\backend\core\class\services\country_service.php line 67)
+2019-04-29 15:36:42 [DEBUG] country_service.php: END getAllEntities [COUNTRY] -------  (at D:\Projects\vanam\backend\core\class\services\country_service.php line 89)
+2019-04-29 15:36:42 [DEBUG] country_route.php: END /country ---------- (at D:\Projects\vanam\backend\routes\country_route.php line 82)
+2019-04-29 15:36:42 [DEBUG] brand_route.php: START /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 125)
+2019-04-29 15:36:42 [DEBUG] brand_service.php: START getAllEntities [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 64)
+2019-04-29 15:36:42 [DEBUG] brand_service.php: END getAllEntities [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 99)
+2019-04-29 15:36:42 [DEBUG] brand_route.php: END /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 144)
+2019-04-29 15:36:42 [DEBUG] category_route.php: START /category ---------- (at D:\Projects\vanam\backend\routes\category_route.php line 65)
+2019-04-29 15:36:42 [DEBUG] category_service.php: START getAllEntities [CATEGORY] -------  (at D:\Projects\vanam\backend\core\class\services\category_service.php line 62)
+2019-04-29 15:36:42 [DEBUG] category_service.php: END getAllEntities [CATEGORY] -------  (at D:\Projects\vanam\backend\core\class\services\category_service.php line 95)
+2019-04-29 15:36:42 [DEBUG] category_route.php: END /category ---------- (at D:\Projects\vanam\backend\routes\category_route.php line 82)
+2019-04-29 15:36:43 [DEBUG] user_route.php: START /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 77)
+2019-04-29 15:36:43 [DEBUG] user_service.php: START getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 87)
+2019-04-29 15:36:43 [DEBUG] user_service.php: END getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 136)
+2019-04-29 15:36:43 [DEBUG] user_route.php: END /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 92)
+2019-04-29 15:36:45 [DEBUG] category_route.php: START /category ---------- (at D:\Projects\vanam\backend\routes\category_route.php line 65)
+2019-04-29 15:36:45 [DEBUG] activity_route.php: START /manager ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 71)
+2019-04-29 15:36:45 [DEBUG] category_service.php: START getAllEntities [CATEGORY] -------  (at D:\Projects\vanam\backend\core\class\services\category_service.php line 62)
+2019-04-29 15:36:45 [DEBUG] tools_service.php: START getAllManagers -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 41)
+2019-04-29 15:36:45 [DEBUG] brand_route.php: START /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 125)
+2019-04-29 15:36:45 [DEBUG] tools_service.php: ----------------------------------------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 56)
+2019-04-29 15:36:45 [DEBUG] category_service.php: END getAllEntities [CATEGORY] -------  (at D:\Projects\vanam\backend\core\class\services\category_service.php line 95)
+2019-04-29 15:36:45 [DEBUG] brand_service.php: START getAllEntities [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 64)
+2019-04-29 15:36:45 [DEBUG] activity_route.php: END /manager ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 86)
+2019-04-29 15:36:45 [DEBUG] category_route.php: END /category ---------- (at D:\Projects\vanam\backend\routes\category_route.php line 82)
+2019-04-29 15:36:45 [DEBUG] brand_service.php: END getAllEntities [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 99)
+2019-04-29 15:36:45 [DEBUG] brand_route.php: END /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 144)
+2019-04-29 15:36:45 [DEBUG] country_route.php: START /country ---------- (at D:\Projects\vanam\backend\routes\country_route.php line 65)
+2019-04-29 15:36:45 [DEBUG] country_service.php: START getAllEntities [COUNTRY] -------  (at D:\Projects\vanam\backend\core\class\services\country_service.php line 67)
+2019-04-29 15:36:45 [DEBUG] country_service.php: END getAllEntities [COUNTRY] -------  (at D:\Projects\vanam\backend\core\class\services\country_service.php line 89)
+2019-04-29 15:36:45 [DEBUG] country_route.php: END /country ---------- (at D:\Projects\vanam\backend\routes\country_route.php line 82)
+2019-04-29 15:36:47 [DEBUG] user_route.php: START /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 77)
+2019-04-29 15:36:47 [DEBUG] user_service.php: START getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 87)
+2019-04-29 15:36:47 [DEBUG] user_service.php: END getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 136)
+2019-04-29 15:36:47 [DEBUG] user_route.php: END /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 92)
+2019-04-29 15:36:56 [DEBUG] activity_route.php: START /manager ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 71)
+2019-04-29 15:36:56 [DEBUG] tools_service.php: START getAllManagers -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 41)
+2019-04-29 15:36:56 [DEBUG] tools_service.php: ----------------------------------------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 56)
+2019-04-29 15:36:56 [DEBUG] activity_route.php: END /manager ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 86)
+2019-04-29 15:36:56 [DEBUG] brand_route.php: START /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 125)
+2019-04-29 15:36:56 [DEBUG] brand_service.php: START getAllEntities [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 64)
+2019-04-29 15:36:56 [DEBUG] brand_service.php: END getAllEntities [BRAND] -------  (at D:\Projects\vanam\backend\core\class\services\brand_service.php line 99)
+2019-04-29 15:36:56 [DEBUG] brand_route.php: END /brand ---------- (at D:\Projects\vanam\backend\routes\brand_route.php line 144)
+2019-04-29 15:36:56 [DEBUG] country_route.php: START /country ---------- (at D:\Projects\vanam\backend\routes\country_route.php line 65)
+2019-04-29 15:36:56 [DEBUG] country_service.php: START getAllEntities [COUNTRY] -------  (at D:\Projects\vanam\backend\core\class\services\country_service.php line 67)
+2019-04-29 15:36:56 [DEBUG] country_service.php: END getAllEntities [COUNTRY] -------  (at D:\Projects\vanam\backend\core\class\services\country_service.php line 89)
+2019-04-29 15:36:56 [DEBUG] category_route.php: START /category ---------- (at D:\Projects\vanam\backend\routes\category_route.php line 65)
+2019-04-29 15:36:56 [DEBUG] country_route.php: END /country ---------- (at D:\Projects\vanam\backend\routes\country_route.php line 82)
+2019-04-29 15:36:56 [DEBUG] category_service.php: START getAllEntities [CATEGORY] -------  (at D:\Projects\vanam\backend\core\class\services\category_service.php line 62)
+2019-04-29 15:36:56 [DEBUG] category_service.php: END getAllEntities [CATEGORY] -------  (at D:\Projects\vanam\backend\core\class\services\category_service.php line 95)
+2019-04-29 15:36:56 [DEBUG] category_route.php: END /category ---------- (at D:\Projects\vanam\backend\routes\category_route.php line 82)
+2019-04-29 15:37:02 [DEBUG] user_route.php: START /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 77)
+2019-04-29 15:37:02 [DEBUG] user_service.php: START getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 87)
+2019-04-29 15:37:02 [DEBUG] user_service.php: END getAllEntities [USER] -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 136)
+2019-04-29 15:37:02 [DEBUG] user_route.php: END /user ---------- (at D:\Projects\vanam\backend\routes\user_route.php line 92)

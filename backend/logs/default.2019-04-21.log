@@ -1,0 +1,180 @@
+2019-04-21 15:22:53 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-21 15:22:53 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-21 15:22:53 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => 766cc429fd8a19ed043d04c386827d92
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-21 15:22:53 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-21 15:22:53 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 24)
+2019-04-21 15:22:53 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 50)
+2019-04-21 15:22:53 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-21 15:22:53 [DEBUG] tools_service.php: 766cc429fd8a19ed043d04c386827d92 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-21 15:22:53 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-21 15:22:53 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 64)
+2019-04-21 15:23:01 [DEBUG] activity_route.php: START /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 32)
+2019-04-21 15:23:01 [DEBUG] user_service.php: START logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 292)
+2019-04-21 15:23:01 [DEBUG] user_service.php: END logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 308)
+2019-04-21 15:23:01 [DEBUG] activity_route.php: END /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 45)
+2019-04-21 15:23:07 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-21 15:23:07 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-21 15:23:07 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => a8e1f58b3af52ff838dd306d01730616
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-21 15:23:07 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-21 15:23:07 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 24)
+2019-04-21 15:23:08 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 50)
+2019-04-21 15:23:08 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-21 15:23:08 [DEBUG] tools_service.php: a8e1f58b3af52ff838dd306d01730616 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-21 15:23:08 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-21 15:23:08 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 64)
+2019-04-21 15:23:33 [DEBUG] activity_route.php: START /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 32)
+2019-04-21 15:23:33 [DEBUG] user_service.php: START logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 292)
+2019-04-21 15:23:33 [DEBUG] user_service.php: END logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 308)
+2019-04-21 15:23:33 [DEBUG] activity_route.php: END /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 45)
+2019-04-21 15:29:38 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-21 15:29:38 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-21 15:29:38 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => 170ffa90d587c6e48a2146ef6d75e880
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-21 15:29:38 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-21 15:29:38 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 24)
+2019-04-21 15:29:38 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 50)
+2019-04-21 15:29:38 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-21 15:29:38 [DEBUG] tools_service.php: 170ffa90d587c6e48a2146ef6d75e880 (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-21 15:29:38 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-21 15:29:38 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 64)
+2019-04-21 15:29:47 [DEBUG] activity_route.php: START /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 32)
+2019-04-21 15:29:47 [DEBUG] user_service.php: START logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 292)
+2019-04-21 15:29:47 [DEBUG] user_service.php: END logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 308)
+2019-04-21 15:29:47 [DEBUG] activity_route.php: END /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 45)
+2019-04-21 15:29:48 [DEBUG] activity_route.php: START /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 5)
+2019-04-21 15:29:48 [DEBUG] user_service.php: ---------- authentifyUser ---------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 206)
+2019-04-21 15:29:48 [DEBUG] user_service.php: Array
+(
+    [status] => 1
+    [user] => Array
+        (
+            [id] => 1
+            [name] => Loic
+            [firstname] => Amsellem
+            [mail] => loic@vanam.fr
+            [mobile_line] => 06 99 99 99 99
+            [direct_line] => 04 91 99 99 99
+            [passwd] => loic13$$
+            [url_picture] => resources/users/logos/74971201.jpg
+            [role] => Array
+                (
+                    [id] => 1
+                    [role] => SUPER_ADMIN
+                )
+
+            [role_id] => 1
+            [company] => Array
+                (
+                    [id] => 1
+                    [name] => VANAM
+                    [url_logo] => resources/companies/logo_vanam.png
+                )
+
+        )
+
+    [key] => 6de0b35787de3e729f2365197c205eec
+)
+ (at D:\Projects\vanam\backend\core\class\services\user_service.php line 285)
+2019-04-21 15:29:48 [DEBUG] user_service.php: --------------------------------------------------- (at D:\Projects\vanam\backend\core\class\services\user_service.php line 286)
+2019-04-21 15:29:48 [DEBUG] activity_route.php: END /login ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 24)
+2019-04-21 15:29:49 [DEBUG] activity_route.php: START /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 50)
+2019-04-21 15:29:49 [DEBUG] tools_service.php: START getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 13)
+2019-04-21 15:29:49 [DEBUG] tools_service.php: 6de0b35787de3e729f2365197c205eec (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 14)
+2019-04-21 15:29:49 [DEBUG] tools_service.php: END getAllCompanies -------  (at D:\Projects\vanam\backend\core\class\services\tools_service.php line 35)
+2019-04-21 15:29:49 [DEBUG] activity_route.php: END /company ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 64)
+2019-04-21 15:29:54 [DEBUG] activity_route.php: START /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 32)
+2019-04-21 15:29:54 [DEBUG] user_service.php: START logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 292)
+2019-04-21 15:29:54 [DEBUG] user_service.php: END logoutUser -------  (at D:\Projects\vanam\backend\core\class\services\user_service.php line 308)
+2019-04-21 15:29:54 [DEBUG] activity_route.php: END /logout ---------- (at D:\Projects\vanam\backend\routes\activity_route.php line 45)

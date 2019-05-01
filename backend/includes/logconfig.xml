@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/">
+    <appender name="default" class="LoggerAppenderDailyFile">
+        <param name="file" value="logs/default.%s.log"/>
+        <param name="datePattern" value="Y-m-d"/>
+        <layout class="LoggerLayoutPattern">
+            <param name="ConversionPattern" value="%d{Y-m-d H:i:s} [%p] %c: %m (at %F line %L)%n"/>
+        </layout>
+    </appender>
+    <appender name="errorLog" class="LoggerAppenderDailyFile">
+        <param name="file" value="logs/error.%s.log"/>
+        <param name="datePattern" value="Y-m-d"/>
+        <layout class="LoggerLayoutPattern">
+            <param name="ConversionPattern" value="%d{Y-m-d H:i:s} [%p] %c: %m (at %F line %L)%n"/>
+        </layout>
+        <filter class="LoggerFilterLevelRange">
+            <param name="LevelMin" value="error"/>
+            <param name="LevelMax" value="fatal"/>
+        </filter>
+        <filter class="LoggerFilterDenyAll"/>
+    </appender>
+    <appender name="emailNotice" class="LoggerAppenderMail">
+        <param name="from" value="majdi@kilani.fr"/>
+        <param name="to" value="majdi@kilani.fr"/>
+        <param name="subject" value="Error"/>
+        <layout class="LoggerLayoutPattern">
+            <param name="ConversionPattern" value="%d{Y-m-d H:i:s} [%p] %c: %m (at %F line %L)%n"/>
+        </layout>
+        <filter class="LoggerFilterLevelRange">
+            <param name="LevelMin" value="error"/>
+            <param name="LevelMax" value="fatal"/>
+        </filter>
+        <filter class="LoggerFilterDenyAll"/>
+    </appender>
+    <root>
+        <level value="DEBUG"/>
+        <appender_ref ref="default"/>
+    </root>
+    <logger name="utile" additivity="true">
+        <!-- with additivity set to TRUE the default is also called, eg parent -->
+        <level value="ALL"/>
+        <!-- by setting level to all, parent loggers can react based on their threshold, if this is set to ERROR, the root logger will not be messaged, use the filter to set what level of messages are captured to this log -->
+        <appender_ref ref="errorLog"/>
+        <appender_ref ref="emailNotice"/>
+    </logger>
+</log4php:configuration>
