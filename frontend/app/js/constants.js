@@ -1,7 +1,7 @@
 const AppSettings = {
-  appTitle: 'Utile',
-  //apiUrl: 'http://api.utiledev.vanam.fr/',
-  apiUrl: 'http://devapivanam.ithubkh.com/',
+    appTitle: 'Utile',
+    //apiUrl: 'http://api.utiledev.vanam.fr/',
+    apiUrl: 'http://vannam.backend.localhost:81/',
 };
 
 export default AppSettings;

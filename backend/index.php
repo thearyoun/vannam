@@ -6,10 +6,10 @@ if (isset($_SERVER['HTTP_ORIGIN'])) {
 
     $http_origin = $_SERVER['HTTP_ORIGIN'];
 
-//    if ($http_origin == "http://localhost:3000" ||
-    if ($http_origin == "http://vannam.frontend.localhost:81" ||
+    if ($http_origin == "http://localhost:3000" ||
+//    if ($http_origin == "http://vannam.frontend.localhost:81" ||
 //        $http_origin == "http://devvanam.ithubkh.com") {
-        $http_origin == "http://vannam.frontend.localhost:81") {
+        $http_origin == "http://localhost:3000") {
         header("Access-Control-Allow-Origin: $http_origin");
     }
 

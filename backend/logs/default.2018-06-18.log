@@ -1,5 +1,0 @@
-2018-06-18 20:10:27 [DEBUG] activity_route.php: START /company ---------- (at /var/www/vhosts/vanam.fr/api.utiledev.vanam.fr/routes/activity_route.php line 46)
-2018-06-18 20:10:27 [DEBUG] tools_service.php: START getAllCompanies -------  (at /var/www/vhosts/vanam.fr/api.utiledev.vanam.fr/core/class/services/tools_service.php line 13)
-2018-06-18 20:10:27 [DEBUG] tools_service.php: c2f1bb57e4a1d58a3ae710ef0c7acfb1 (at /var/www/vhosts/vanam.fr/api.utiledev.vanam.fr/core/class/services/tools_service.php line 14)
-2018-06-18 20:10:27 [DEBUG] tools_service.php: END getAllCompanies -------  (at /var/www/vhosts/vanam.fr/api.utiledev.vanam.fr/core/class/services/tools_service.php line 35)
-2018-06-18 20:10:27 [DEBUG] activity_route.php: END /company ---------- (at /var/www/vhosts/vanam.fr/api.utiledev.vanam.fr/routes/activity_route.php line 60)
