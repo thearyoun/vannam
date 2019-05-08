@@ -15,10 +15,10 @@ function authController($scope, $rootScope, $state, WS, $localStorage) {
     	passwd : 'loic13$$'
     }
 
-    // vm.user = {
-    //     mail : 'gwendoline@vanam.fr',
-    //     passwd : 'gwendoline'
-    // }
+    vm.user = {
+        mail : 'gwendoline@vanam.fr',
+        passwd : 'gwendoline'
+    }
 
     vm.login = function() {
         WS.post('login',vm.user)
@@ -39,6 +39,7 @@ function authController($scope, $rootScope, $state, WS, $localStorage) {
                 $scope.$apply();
             });
     }
+
     vm.forgotPassword = function() {
         WS.forgot({ email: vm.email })
             .then(function(data) {

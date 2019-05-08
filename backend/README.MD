@@ -1,9 +1,11 @@
-Requirement before install this project
+#Requirement before install this project
+```
 -> PHP version : 5 version
 -> MySQL version : 5.7.19
+```
 
-What you need to change
-
+#What you need to change
+```
 1. Change your database config
   => Go to includes folder->define.php
 2. For allowing frontend can call your api(backend) and loading your route.
@@ -24,9 +26,11 @@ if (isset($_SERVER['HTTP_ORIGIN'])) {
 }
 
 3. Copy .htaccess to pass into folder core\commons\slim\vendor\slim\slim
+```
 
 
-Folder For
+#Folder For
+```
 1. Route folder
   => comunication from database to view(client server)
 2. Batchs, pictures, resource and template folder are for keeping image, file excel.
@@ -38,3 +42,4 @@ Folder For
   -> core/class/Interface for method
   -> core/class/SErvice for query from database
   -> core/common is slim library
+```
