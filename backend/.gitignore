@@ -3,5 +3,5 @@ package-lock.json
 yarn.lock
 .idea
 .DS_Store
-.idea
 logs/*
+batchs/import_ev/11_Extraction_de_Stock_11_2018-V1-Test1.xlsx

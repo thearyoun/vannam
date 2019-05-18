@@ -4,7 +4,7 @@ function profileController($scope, $rootScope, $state, WS, $localStorage) {
     vm.user = {};
     if ($localStorage.data.user) {
         angular.copy($localStorage.data.user, vm.user);
-        console.log(vm.user);
+        console.log('user:', vm.user);
     }
 
     vm.editUser = function() {
@@ -23,8 +23,8 @@ function profileController($scope, $rootScope, $state, WS, $localStorage) {
             .then(null, function(error) {
                 window.notif(''+error.msg,'error');
                     $('.loader').addClass('hidden');
-                    
-                    
+
+
             });
     }
 
@@ -54,8 +54,8 @@ function profileController($scope, $rootScope, $state, WS, $localStorage) {
                 .then(null, function(error) {
                     window.notif(''+error.msg,'error');
                     $('.loader').addClass('hidden');
-                    
-                    
+
+
                 });
         })
     }
@@ -80,11 +80,11 @@ function profileController($scope, $rootScope, $state, WS, $localStorage) {
             })
             .then(null, function(error) {
                 window.notif(''+error.msg,'error');
-                $('.loader').addClass('hidden');    
-                
+                $('.loader').addClass('hidden');
+
             });
     }
-    
+
    	var ua = navigator.userAgent,
         event = (ua.match(/iP/i)) ? 'touchstart' : 'click';
 
@@ -92,7 +92,7 @@ function profileController($scope, $rootScope, $state, WS, $localStorage) {
     $(document).on(event, '.img', function(event) {
         $('[name=picture]').trigger('click');
         event.stopPropagation();
-   
+
     });
     $(document).on('change', '[name="picture"]', function(event) {
         var input = this;

@@ -1,9 +1,12 @@
 <?php
 
+use UTILE\Brand;
+use UTILE\BrandService;
+
 $app->group('/brand', function () use ($app) {
 
     $app->post('/', function () use ($app) {
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand ----------');
         $return = array();
         try {
@@ -13,12 +16,12 @@ $app->group('/brand', function () use ($app) {
             $body = $app->request->getBody();
             $dataBody = json_decode($body, true);
 
-            $brand = new \UTILE\Brand ();
+            $brand = new Brand ();
             $brand->set_name($dataBody['name']);
             $brand->set_companyId($dataBody['company_id']);
             $brand->set_marge($dataBody['marge']);
 
-            $brandService = new \UTILE\BrandService ();
+            $brandService = new BrandService ();
             $return = $brandService->addNewEntity($token, $brand);
 
         } catch (Exception $e) {
@@ -35,16 +38,16 @@ $app->group('/brand', function () use ($app) {
     });
 
     $app->post('/media', function () use ($app) {
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand/media ----------');
         $return = array();
         try {
             $token = $app->request->headers->get('token');
-            $brand = new \UTILE\Brand ();
+            $brand = new Brand ();
             $brand->set_id($app->request->params('id'));
             $files = $_FILES['picture'];
 
-            $brandService = new \UTILE\BrandService ();
+            $brandService = new BrandService ();
             $return = $brandService->updateBrandLogo($token, $brand, $files);
 
         } catch (Exception $e) {
@@ -61,7 +64,7 @@ $app->group('/brand', function () use ($app) {
     });
 
     $app->delete('/media', function () use ($app) {
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand/media ----------');
         $return = array();
         try {
@@ -69,7 +72,7 @@ $app->group('/brand', function () use ($app) {
             $dataBody = json_decode($body, true);
             $brandId = $dataBody['id'];
             $token = $app->request->headers->get('token');
-            $brandService = new \UTILE\BrandService();
+            $brandService = new BrandService();
             $return = $brandService->deletePictureOfCurrentBrand($token, $brandId);
         } catch (Exception $e) {
             $logger->debug($e);
@@ -86,7 +89,7 @@ $app->group('/brand', function () use ($app) {
     });
 
     $app->put('/', function () use ($app) {
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand ----------');
         $return = array();
         try {
@@ -96,14 +99,14 @@ $app->group('/brand', function () use ($app) {
 
             $logger->debug($dataBody);
 
-            $brand = new \UTILE\Brand ();
+            $brand = new Brand ();
             $brand->set_id($dataBody['brand_id']);
             $brand->set_name($dataBody['name']);
             $brand->set_marge($dataBody['marge']);
 
             $logger->debug($brand);
 
-            $brandService = new \UTILE\BrandService ();
+            $brandService = new BrandService ();
             $return = $brandService->updateEntityById($token, $brand);
 
         } catch (Exception $e) {
@@ -121,7 +124,7 @@ $app->group('/brand', function () use ($app) {
 
     $app->get('/', function () use ($app) {
 
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand ----------');
         $return = array();
 
@@ -129,7 +132,7 @@ $app->group('/brand', function () use ($app) {
             $token = $app->request->headers->get('token');
             $companyId = $app->request->params('company_id');
 
-            $brandService = new \UTILE\BrandService ();
+            $brandService = new BrandService ();
             $return = $brandService->getAllEntities($token, $companyId);
 
         } catch (Exception $e) {
@@ -148,13 +151,13 @@ $app->group('/brand', function () use ($app) {
     });
 
     $app->get('/:id', function ($id) use ($app) {
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand/:id ----------');
         $return = array();
         try {
             $token = $app->request->headers->get('token');
 
-            $brandService = new \UTILE\BrandService ();
+            $brandService = new BrandService ();
             $return = $brandService->getEntityById($token, $id);
 
         } catch (Exception $e) {
@@ -171,7 +174,7 @@ $app->group('/brand', function () use ($app) {
     });
 
     $app->delete('/', function () use ($app) {
-        $logger = \Logger::getLogger(basename(__FILE__));
+        $logger = Logger::getLogger(basename(__FILE__));
         $logger->debug('START /brand ----------');
         try {
 
@@ -180,7 +183,7 @@ $app->group('/brand', function () use ($app) {
             $dataBody = json_decode($body, true);
             $brandId = $dataBody['brand_id'];
 
-            $brandService = new \UTILE\BrandService ();
+            $brandService = new BrandService ();
             $return = $brandService->deleteEntityById($token, $brandId);
             $app->response()->header('Content-Type', 'application/json');
             echo json_encode($return);
@@ -193,5 +196,3 @@ $app->group('/brand', function () use ($app) {
     });
 
 });
-
-?>
